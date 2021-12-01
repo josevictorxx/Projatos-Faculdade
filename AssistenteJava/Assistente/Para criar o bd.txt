@@ -1,0 +1,11 @@
+create database assistente;
+use assistente;
+
+create table alunos(
+id int not null auto_increment.
+nome varchar(30),
+curso varchar(30),
+email varchar(30),
+nota float
+primary key (id)
+);
